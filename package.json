@@ -1,0 +1,20 @@
+{
+  "author": "OpusCapita (www.opuscapita.com)",
+  "name": "@opuscapita/oc-cm-theme",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "description": "OpusCapita CM Theme",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push origin --tags"
+  },
+  "engines": {
+    "node": ">=6.x.x",
+    "npm": ">=5.3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpusCapita/oc-cm-theme.git"
+  }
+}
