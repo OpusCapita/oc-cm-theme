@@ -1,4 +1,4 @@
-export const descriptions = {
+const descriptions = {
     grey1: ['Button (disabled)'],
     grey2: ['Alert notification background'],
     grey3: [
@@ -71,4 +71,5 @@ export const colors = {
     red: '#D82515',
     blue: '#16AED6',
     violet: '#943BA3',
+    descriptions: descriptions,
 };

@@ -1,5 +1,3 @@
-export const classPrefix = 'oc-layout';
-
 export const constants = {
     // Currently we do not use roundings, but the variables have been added for
     // Bootstrap compatibility
@@ -27,4 +25,5 @@ export const constants = {
         normal: '1.4rem', // default text
         small: '1.2rem',
     },
+    classPrefix: 'oc-layout',
 };
