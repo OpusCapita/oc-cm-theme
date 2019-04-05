@@ -5,8 +5,8 @@
   "private": false,
   "license": "MIT",
   "description": "OpusCapita CM Theme",
-  "main": "lib/es/index.js",
-  "cjs": "lib/cjs/index.js",
+  "main": "lib/cjs/index.js",
+  "es": "lib/es/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm-run-all clean build:*",
