@@ -3,6 +3,7 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
 ## <next>
+* Build scripts
 
 ## 0.0.4
 * Transformed `index.js` to ES2015
