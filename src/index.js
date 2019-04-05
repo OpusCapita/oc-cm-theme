@@ -1,7 +1,7 @@
-import theme from '../src/theme';
+import theme from './theme';
 
-export { theme } from '../src/theme';
-export { colors } from '../src/colors';
-export { constants } from '../src/constants'
+export { theme } from './theme';
+export { colors } from './colors';
+export { constants } from './constants'
 
 export default theme;
