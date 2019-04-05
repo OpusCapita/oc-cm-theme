@@ -6,11 +6,13 @@
   "license": "MIT",
   "description": "OpusCapita CM Theme",
   "main": "lib/es/index.js",
+  "cjs": "lib/cjs/index.js",
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm-run-all clean build:*",
     "postversion": "git push && git push origin --tags",
-    "build:es": "cross-env NODE_ENV=production BUILD_ENV=es babel src --out-dir lib/es --copy-files --source-maps inline"
+    "build:es": "cross-env NODE_ENV=production BUILD_ENV=es babel src --out-dir lib/es --copy-files --source-maps inline",
+    "build:cjs": "cross-env NODE_ENV=production BUILD_ENV=cjs babel src --out-dir lib/cjs --copy-files --source-maps inline"
   },
   "engines": {
     "node": ">=6.x.x",
