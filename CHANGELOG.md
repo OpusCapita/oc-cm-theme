@@ -3,6 +3,10 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 ## <next>
 
+## 0.2.0
+* Fix theme named export
+* Remove redundant dependencies and configs
+
 ## 0.1.0
 * Build scripts
 
